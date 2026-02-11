@@ -20,5 +20,6 @@ class Card {
         string getNumber() const;
         void printCard() const;
         bool operator==(const Card &other) const;
+        bool operator<(const Card &other) const;
 }
 #endif
