@@ -14,12 +14,12 @@ class Card {
         char suit;
         string number;
     public:
-        Card(char s, char n);
+        Card(char s, string n);
         ~Card();
         char getSuit() const;
         string getNumber() const;
         void printCard() const;
         bool operator==(const Card &other) const;
         bool operator<(const Card &other) const;
-}
+};
 #endif
