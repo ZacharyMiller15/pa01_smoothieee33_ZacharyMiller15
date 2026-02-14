@@ -109,12 +109,12 @@ int main(int argv, char** argc){
       break;
   }
 
-  cout << "Alice's Cards:" << endl;
+  cout << "Alice's cards:" << endl;
   for (auto it = alice.begin(); it != alice.end(); ++it){
     (*it).printCard();
   }
 
-    cout << "Bob's Cards:" << endl;
+    cout << "Bob's cards:" << endl;
   for (auto it = bob.begin(); it != bob.end(); ++it){
     (*it).printCard();
   }
