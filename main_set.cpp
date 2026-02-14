@@ -96,12 +96,13 @@ int main(int argv, char** argc){
     if (stall_alice && stall_bob)
       break;
   }
-
+  cout << endl;
   cout << "Alice's cards:" << endl;
   for (auto it = alice.begin(); it != alice.end(); it++){
     (*it).printCard();
   }
 
+    cout << endl;
     cout << "Bob's cards:" << endl;
   for (auto it = bob.begin(); it != bob.end(); it++){
     (*it).printCard();
